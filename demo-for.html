@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [["Thuy","Trinh"],["Trong","Viet"],["Dao", "Hang"],["Duc","Luan"],["Duong","Quynh"],["Hoa","Hung"]];
+    for(let index in arr){
+        document.write(arr[index][0]+"<br>");
+    }
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+
+    for(let item of arr){
+        document.write(item[1] +"<br>");
+    }
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+
+
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr[i].length; j++) {
+            document.write(arr[i][j]+"<br>");
+        }
+    }
+</script>
+</body>
+</html>
